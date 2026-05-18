@@ -1,0 +1,680 @@
+<!Doctype html>	
+<html>
+        <head>
+          <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			 
+               	<link rel="icon" type="image/jpg" href="bar.jpg">
+								
+               <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+			  
+			  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+			  
+			  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+            <title>
+                I B I F Bodinga!
+                </title>
+                <style>
+				.container{
+				position: relative;
+				height: 100vh;
+				}
+				
+				
+		
+				.content {
+				margin-top: 80px;
+				padding: 15px;
+				justify-content: space-between;
+				animation: fadeUp linear;
+				animation-timeline: view();
+				animation-range: entry 0% cover 40%;
+				}
+		
+				 body {
+            font-family: Arial, sans-serif;
+			background-color: floralwhite;
+			margin: 0px;
+			padding: 0px;
+        }
+
+				.fixed-section{
+				position: fixed;
+				top: -7px;
+				left: 0px;
+				width: 100%;
+				height: 50px;
+				text-align: center;
+				padding: 8px;
+				z-index: 100;
+				}
+	
+				
+			div	footer p{
+				
+				text-align: center;
+				border-radius: 8px;
+				background-color: green;
+				color: white;	
+				font-size: 14px;
+				font-weight: bold;
+				}
+				
+		.blinking-text{
+					text-align: center;
+					font-weight: bolder;
+					color: deeppink;
+					font-size: 25px;
+					animation: blink 2s infinite;
+					animation-iteration-count: 2 step ease-in;
+					font-family: 'Times New Roman', Times, serif;
+					margin-top: 40px;
+					}
+					
+					 
+					 @keyframes blink{
+					 0% {opacity: 0;}
+					 
+					  75% {opacity: 1;}
+					  
+					   100% {opacity: 0;}
+					 }				
+					 
+				 
+					  @media (max-width: 768px) {
+       	.blinking-text {
+                font-size: 25px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.blinking-text  {
+			           font-size: 19px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+	.one {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+		border: 2px inset powderblue;
+		display: block;
+		padding: 8px;
+		   }
+		
+					  @media (max-width: 768px) {
+       	.one {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.one{
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.two{
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+		border: 2px inset powderblue;
+				padding: 8px;
+		}
+		
+			  @media (max-width: 768px) {
+       	.two {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.two {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.three {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+				padding: 8px;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+		border: 2px inset powderblue;
+		}
+		
+			  @media (max-width: 768px) {
+       	.three {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.three {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.four {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+				padding: 8px;
+		border: 2px inset powderblue;
+		}
+		
+			  @media (max-width: 768px) {
+       	.four {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.four {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.five {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+		font-weight: bolder;
+		text-align: center;
+				padding: 8px;
+		border-radius: 8px;
+		border: 2px inset powderblue;
+		}
+			  @media (max-width: 768px) {
+       	.five {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.five {
+									font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.six {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+				padding: 8px;
+		align-text:center;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+		border: 2px inset powderblue;
+		}
+		
+			  @media (max-width: 768px) {
+       	.six {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.six {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.seven {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+				padding: 8px;
+		border: 2px inset powderblue;
+		}
+		
+			  @media (max-width: 768px) {
+       	.seven {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+ @media (max-width: 480px) {
+        	.seven {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+
+      
+        @media (max-width: 480px) {
+        	.eight {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.eight{
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+				padding: 8px;
+		border: 2px inset powderblue;
+		}
+		
+			  @media (max-width: 768px) {
+       	.eight {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.eight {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.nine {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+				padding: 8px;
+		border: 2px inset powderblue;
+		}
+		
+			  @media (max-width: 768px) {
+       	.nine {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.nine {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+	
+		.ten {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+		font-weight: bolder;
+				padding: 8px;
+		text-align: center;
+		border-radius: 8px;
+		border: 2px inset powderblue;
+		}
+		
+		 @media (max-width: 768px) {
+       	.ten {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.ten {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.eleven {
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+		align-text:center;
+				padding: 8px;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+		border: 2px inset powderblue;
+		}
+		
+			  @media (max-width: 768px) {
+       	.eleven {
+                font-size: 20px;	
+				width: auto;
+                height: auto;
+            }
+        }
+
+      
+        @media (max-width: 480px) {
+        	.eleven {
+			           font-size: 14px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+		
+		.twelve{
+		background-color: lightgrey;
+		box-shadow: 4px 5px 9px lightblue;
+		color: blue;
+				padding: 8px;
+		text-align:center;
+		font-weight: bolder;
+		text-align: center;
+		border-radius: 8px;
+		border: 2px inset powderblue;
+		}
+		
+			  @media (max-width: 768px) {
+       	.twelve {
+                font-size: 20px;
+				width: auto;
+                height: auto;
+            }
+        }
+
+
+      
+        @media (max-width: 480px) {
+        	.twelve {
+			           font-size: 15px;
+					   width: auto;
+                       height: auto;
+            }
+        }
+			
+			
+			.input-group a:hover{
+			background-color: lightgrey;
+			}
+			
+			.one:hover{
+			background-color: floralwhite;
+			color: black;
+			transition: 1s ease-out;
+			cursor: pointer;
+			}
+			
+			.welcome-text {
+			text-align: center;
+			margin-bottom: 10px;
+			overflow: hidden;
+			}
+			
+	        .contact-form a {
+			text-decoration: none;
+			font-weight: bold;
+			}
+			
+.img-holder img{
+height: 150px;
+width: auto;
+float: center;
+border: 2px solid lightblue;
+border-radius: 50rem;
+margin-top: 40px;
+}
+
+@media (max-width: 480px){
+.img-holder img {
+height: 100px;
+width: auto;
+float: center;
+border: 2px dashed lightblue;
+border-radius: 30rem;
+ }
+ }
+
+@media (max-width: 768px){
+	.img-holder img{
+height: 120px;
+width: auto;
+float: center;
+border: 2px dottted lightblue;
+border-radius: 40rem;
+  }
+}
+
+
+.card{
+background-color: rgb(35,99,120);
+justify-content: space-between;
+margin-top: 22px;
+border: 2px dashed lightblue;
+outline-color: green;
+box-shadow: 10px 7px 5px powderblue;
+}
+
+@media (max-width: 480px){
+.card {	
+background-color: rgb(20,150,120);
+justify-content: space-between;
+justify-content: space-arounds;
+ }
+  }
+
+
+.card p{
+color: white;
+font-size: 15px;
+font-family: segoe print;
+font-weight: bold;
+text-shadow: 2px 7px 4px green;
+text-align: center;
+}
+
+@media (max-width: 480px){
+.card p {
+color: white;
+font-size: 12px;
+align-text: center;
+font-weight: bold;
+text-shadow: 2px 7px 4px green;
+
+    }
+}
+
+@media (max-width: 267px){
+.card p {
+color: white;
+font-size: 10px;
+align-text: center;
+font-weight: bold;
+text-shadow: 2px 7px 4px green;
+
+    }
+}
+     </style>
+           </head>
+    <body>
+	
+			   
+							  <div class="fixed-section">
+                            
+<nav class="navbar bg-primary" data-bs-theme="lightblue">
+ <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <a class="nav-link" href="index.html" style="color: white;">
+                    <i class="fas fa-home"></i> <b>Gida</b>
+                </a>
+            </li> <a class="nav-link" href="loader.html" style="color: white;">
+                    <i class="fas fa-registered"></i> <b>Rijista</b>
+                </a>
+            </li> <a class="nav-link" href="contact-form.html" style="color: white;">
+                    <i class="fas fa-user"></i> <b>Korafi</b>
+                </a>
+            </li>
+    </div>
+</nav>							      
+             </div>
+								   
+	                                   <div class="container">
+
+<div class="content">
+    <div class="image-container" align="center">
+	<div class="img-holder">
+	<img src="bar.jpg">
+	</div>
+	</div>
+	<div class="holder">
+	<div class="card">
+	<p> ANKAFA WANNAN MAKARANTAR DOMIN ADDININ MUSULUNCI DA KUMA TARBIYA TA GARI</p>
+	</div>
+	</div>
+         <div class="blinking-text">
+	                <p>DOKA! DOKA!! DOKA!!! </p>
+	                       </div>
+						   <div align="center">
+						   
+            <div class="one"> 1. Wajibi ne a biya kudin takardar shiga makaranta (Registration form) &#8358 500, da kuma rigista &#8358 500.
+             Haka kuma <br>a kowanne zango (wata hudu) za'a biya kudin makaranta  &#8358 2000 ga bangaren
+             Islamiyya, <br>bangaren tahfiz kuma &#8358 3000,  Wanda keson hada bangarorin guda biyu zai biya 
+            &#8358 5000.
+           </div>
+		   <br>
+                       <div class="two">
+					   2. Wajibi ne ga duk dalibin da keson shiga wannan makaranta, mahaifinsa ko wakilinsa ya kawo sa.
+            </div>
+				   <br>
+            <div class="three">
+            
+				3. Wajibi ne tufafin makaranta sukance bisa tsarin musulunci kamar haka:- <br>
+           
+				a. MAZA: Tagguwa (riga), wando da hula.
+
+           b. MATA: Tagguwa (riga), wando Dankwali da kuma hijabi har kasa.
+            </div>
+            	   <br>
+			             <div class="four">4. Dole ne Dalibi/Daliba Su rika zuwa makaranta koda yaushe kuma a cikin lokacin da aka tsara, rashin yin haka za'a yi
+              musu hukunci daya dace.
+            </div>
+            	   <br>
+			             <div class="five">5. Ba'a yarda kowacce daliba tazo makaranta da kwalliya ba.
+            </div>
+				   <br>
+			  <div class="six"> 6. Ba'a yarda dalibi yazo da yawar salula ko wata
+               na'ura ta zamani ba (bluetooth, smartwatch).
+            </div>
+            	   <br>
+             <div class="seven">
+			 7. Idan yaro ko yarinya suka kai kara anyi musu wani abu,to a nemi gaskiyar magana a makaranta.
+           </div>
+	   <br>
+              <div class="eight">8. Idan za'a yi tafiya da dalibi ko daliba, to a nemi izini daga makaranta, idan ba haka ba za'a yi musu
+               hukunci idan sun dawo.
+            </div>
+           	   <br> 
+             <div class="nine">
+			 9. Idan za'a cazawa dalibi makaranta to wajibine a sanarda hukumar makaranta tare da karbar 
+              takardar shedar canjin makaranta (Transfer letter).
+           </div>
+            	   <br>
+             <div class="ten">
+              10. Lokutan karatu sune kamar haka:-
+           a. ISLAMIYYA: Assabar zuwa laraba karfe 3pm -6pm 
+              b.  TAHFIZ: Assabar da lahadi karfe 8am -1pm, Laraba 2pm -4pm, Alhamis karfe 3pm -6pm.
+            </div>
+				   <br>
+                          <div class="eleven">
+						  11. Wajibi ne dalibi / daliba su mallaki kayan karatu kamar yadda makaranta ta tsara.
+            </div>
+				   <br>
+            <div class="twelve">
+			12. Wajibi ne ga mahaifi / wakili ya karbi kira idan makaranta ta kira taron uwayen yara ko 
+              mitin (meetin).
+                      </div>
+			    </div> 
+			</div>	
+	
+			  <div align="center" style="font-size:16px; text-decoration: none;">
+			  <div class="contact-form">
+			 <a href="contact-form.html">Kofa a bude take domin bada shawara</a>
+				   </div>
+				</div>
+				
+				<div align="center">				
+			   			 <footer>
+            <p>
+              &copy; Copyright Aliyu Adamu Bodinga | All Rights Reserved. 
+            </p>
+        </footer>
+		       </div>		
+		</body>
+        </html>
+    
