@@ -27,7 +27,17 @@
 				margin-top: 80px;
 				padding: 13px;
 				justify-content: space-between;
-				}
+				animation: fadeUp 1s ease-in forwards;
+				 opacity: 0;
+			     transform: translateY(20px);
+			      }
+					@keyframes fadeUp{
+						to{
+							opacity: 1;
+							transform: translateY(0);
+						}
+					}
+				
 		
 				 body {
             font-family: Arial, sans-serif;
@@ -96,17 +106,7 @@
             }
         }
 
-             .fadeUp{
-					animation: fadeUp 1s ease-in forwards;
-				    opacity: 0;
-			        transform: translateY(20px);
-			      }
-					@keyframes fadeUp{
-						to{
-							opacity: 1;
-							transform: translateY(0);
-						}
-					}
+             
 	.one {
 		background-color: lightgrey;
 		box-shadow: 4px 5px 9px lightblue;
@@ -620,7 +620,7 @@ text-shadow: 2px 7px 4px green;
          <div class="blinking-text">
 	                <p>DOKA! DOKA!! DOKA!!! </p>
 	                       </div>
-						   <div align="center" class="fadeUp">
+						   <div align="center">
 						   
             <div class="one"> 1. Wajibi ne a biya kudin takardar shiga makaranta (Registration form) &#8358 500, da kuma rigista &#8358 500.
              Haka kuma <br>a kowanne zango (wata hudu) za'a biya kudin makaranta  &#8358 2000 ga bangaren
