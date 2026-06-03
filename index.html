@@ -493,7 +493,9 @@
 			text-align: center;
 			margin-bottom: 12px;
 			overflow: hidden;
-			}
+					}
+
+			
 			
 	        .contact-form a {
 			text-decoration: none;
@@ -507,7 +509,19 @@ float: center;
 border: 2px solid lightblue;
 border-radius: 50rem;
 margin-top: 40px;
+animation:test 1s linear forwards;
 }
+
+@keyframes test{
+from{
+transform: translateX(100%);
+opacity: 0.1;
+}
+to{
+transform: translateY(0);
+  }
+}
+
 
 @media (max-width: 480px){
 .img-holder img {
@@ -555,7 +569,19 @@ font-family: segoe print;
 font-weight: bold;
 text-shadow: 2px 7px 4px green;
 text-align: center;
+animation: y-axis 1s linear forwards;
 }
+
+@keyframes y-axis{
+from {
+transform: translateY(20px);
+opacity: 0.1;
+}
+to{
+transform: translateY(0);
+  }
+}
+
 
 @media (max-width: 480px){
 .card p {
