@@ -27,9 +27,6 @@
 				margin-top: 80px;
 				padding: 13px;
 				justify-content: space-between;
-				animation: fadeUp linear;
-				animation-timeline: view();
-				animation-range: entry 0% cover 40%;
 				}
 		
 				 body {
@@ -98,7 +95,18 @@
                        height: auto;
             }
         }
-		
+
+             .fadeUp{
+					animation: fadeUp 1s ease-in forwards;
+				    opacity: 0;
+			        transform: translateY(20px);
+			      }
+					@keyframes fadeUp{
+						to{
+							opacity: 1;
+							transform: translateY(0);
+						}
+					}
 	.one {
 		background-color: lightgrey;
 		box-shadow: 4px 5px 9px lightblue;
@@ -110,6 +118,7 @@
 		border: 2px inset powderblue;
 		display: block;
 		padding: 8px;
+		animation-delay:0.2s;
 		   }
 		
 					  @media (max-width: 768px) {
@@ -139,6 +148,7 @@
 		border-radius: 8px;
 		border: 2px inset powderblue;
 				padding: 8px;
+			animation-delay:0.5s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -168,6 +178,7 @@
 		text-align: center;
 		border-radius: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.8s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -197,6 +208,7 @@
 		border-radius: 8px;
 				padding: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.11s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -226,6 +238,7 @@
 				padding: 8px;
 		border-radius: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.14s;
 		}
 			  @media (max-width: 768px) {
        	.five {
@@ -254,6 +267,7 @@
 		text-align: center;
 		border-radius: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.17s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -283,6 +297,7 @@
 		border-radius: 8px;
 				padding: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.20s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -321,6 +336,7 @@
 		border-radius: 8px;
 				padding: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.23s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -350,6 +366,7 @@
 		border-radius: 8px;
 				padding: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.26s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -379,6 +396,7 @@
 		text-align: center;
 		border-radius: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.26s;
 		}
 		
 		 @media (max-width: 768px) {
@@ -408,6 +426,7 @@
 		text-align: center;
 		border-radius: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.29s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -437,6 +456,7 @@
 		text-align: center;
 		border-radius: 8px;
 		border: 2px inset powderblue;
+			animation-delay:0.32s;
 		}
 		
 			  @media (max-width: 768px) {
@@ -600,7 +620,7 @@ text-shadow: 2px 7px 4px green;
          <div class="blinking-text">
 	                <p>DOKA! DOKA!! DOKA!!! </p>
 	                       </div>
-						   <div align="center">
+						   <div align="center" class="fadeUp">
 						   
             <div class="one"> 1. Wajibi ne a biya kudin takardar shiga makaranta (Registration form) &#8358 500, da kuma rigista &#8358 500.
              Haka kuma <br>a kowanne zango (wata hudu) za'a biya kudin makaranta  &#8358 2000 ga bangaren
