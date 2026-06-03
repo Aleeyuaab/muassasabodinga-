@@ -18,6 +18,7 @@ Mu'assasabodinga/Kundin korafi!
 <style> 
 body {
 background-color: floralwhite;
+font-family: Sen-serif;
 }
 
 input{
@@ -87,16 +88,16 @@ text-align: center;
 color: blue;
 font-family: segoe script;
 margin-top: 10px;
-animation: y-axis 2s linear forwards;
+animation: X-axis 2s linear forwards;
 }
 
-@keyframes y-axis{
+@keyframes X-axis{
 from {
-transform: translateY(30px);
+transform: translateX(35px);
 opacity: 0.1;
 }
 to{
-transform: translateY(0);
+transform: translateX(0);
   }
 }
 
@@ -107,12 +108,23 @@ float: center;
 border: 2px solid lightblue;
 border-radius: 50rem;
 margin-top: 10px;
+animation:test 1s linear forwards;
+}
+
+@keyframes test{
+from{
+transform: translate(-100%);
+opacity: 0.1;
+}
+to{
+transform: translateY(0);
+  }
  }
 	
 @media (max-width: 480px){
 	.img-holder img{
-height: 100px;
-width: auto;
+height: 165px;
+width: 100%;
 float: center;
 border: 2px dashed lightblue;
 border-radius: 30rem;
