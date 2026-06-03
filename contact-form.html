@@ -87,6 +87,17 @@ text-align: center;
 color: blue;
 font-family: segoe script;
 margin-top: 10px;
+animation: y-axis 2s linear forwards;
+}
+
+@keyframes y-axis{
+from {
+transform: translateY(30px);
+opacity: 0.1;
+}
+to{
+transform: translateY(0);
+  }
 }
 
 .img-holder img {
@@ -189,7 +200,7 @@ margin-top: -20px;
 <body>
 						
 <div class="holder">
-	<div class=							"card">
+	<div class="card">
 	<p> ANKAFA WANNAN MAKARANTAR DOMIN YADA INGANTACCEN ILIMI DA<BR>TARBIYAR ADDININ MUSULUNCI</p>
 	</div>
 	</div>
@@ -199,7 +210,7 @@ margin-top: -20px;
 	</div>
 	</div>
 <h3>MENENE RA'AYINKU ? </h3>
-<form name="cotact-form" action="https://formspree.io/f/xyklelrw" method="POST">
+<form onSubmit="this.reset()" name="cotact-form" action="https://formspree.io/f/xyklelrw" method="POST">
 <table  align="center">
 <tr>
 <td><label for="Name"><i class="fas fa-user"></i><b>Suna</b><span style="color: red;">*</span></label><br>
