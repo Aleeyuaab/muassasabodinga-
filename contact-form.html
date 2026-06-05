@@ -1,4 +1,5 @@
 
+
 <!Doctype html>
 <html>
 <head>
@@ -18,7 +19,7 @@ Mu'assasabodinga/Kundin korafi!
 <style> 
 body {
 background-color: floralwhite;
-font-family: Sen-serif;
+font-family: sen-serif;
 }
 
 input{
@@ -68,8 +69,8 @@ width: auto;
 background-color: blue;
 border-radius: 10px;
 border: 2px dashed green;
-margin-bottom: 15px;
-margin-top: 10px;
+margin-bottom: 50px;
+margin-top: 15px;
 }
 
 .button span{
@@ -101,6 +102,156 @@ transform: translateX(0);
   }
 }
 
+.one {
+animation: onefadeUp 2.1s linear 2s forwards;
+}
+
+@keyframes onefadeUp{
+from {
+transform: translateY(50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateY(0);
+  }
+}
+
+.two {
+animation: twofadeUp 2.1s linear 3s forwards;
+}
+
+@keyframes twofadeUp{
+from {
+transform: translateX(50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateX(0);
+  }
+}
+
+.three{ 
+animation: threefadeUp 2.1s linear 4s forwards;
+}
+
+@keyframes threefadeUp{
+from {
+transform: translateX(-50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateX(0);
+  }
+}
+
+.four{ 
+animation: fourfadeUp 2.1s linear 4s forwards;
+}
+
+@keyframes fourfadeUp{
+from {
+transform: translateY(-50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateY(0);
+  }
+}
+
+.five{ 
+animation: fivefadeUp 2.1s linear 5s forwards;
+}
+
+@keyframes fivefadeUp{
+from {
+transform: translateX(50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateX(0);
+  }
+}
+
+
+.six{ 
+animation: sixfadeUp 2.1s linear 6s forwards;
+}
+
+@keyframes sixfadeUp{
+from {
+transform: translateX(-50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateX(0);
+  }
+}
+
+
+.seven{ 
+animation: sevenfadeUp 2.1s linear 7s forwards;
+}
+
+@keyframes sevenfadeUp{
+from {
+transform: translateY(50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateY(0);
+  }
+}
+
+
+.eight{ 
+animation: eightfadeUp 2.1s linear 8s forwards;
+}
+
+@keyframes eightfadeUp{
+from {
+transform: translateY(-50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateY(0);
+  }
+}
+
+
+.nine{ 
+animation: ninefadeUp 2.1s linear 9s forwards;
+}
+
+@keyframes ninefadeUp{
+from {
+transform: translateX(50%);
+opacity: 0.1;
+filter: blur(40px);
+scale(0.70)
+}
+to{
+transform: translateX(0);
+  }
+}
+
+
+
 .img-holder img {
 height: 150px;
 width: auto;
@@ -123,8 +274,8 @@ transform: translateY(0);
 	
 @media (max-width: 480px){
 	.img-holder img{
-height: 165px;
-width: 100%;
+height: 175px;
+width: 125%;
 float: center;
 border: 2px dashed lightblue;
 border-radius: 30rem;
@@ -204,7 +355,6 @@ background-color: green;
 color: white;
 font-size: 20px;
 font-weight: bold;
-margin-top: -20px;
 	          }
 				}	  
 	
@@ -226,51 +376,51 @@ margin-top: -20px;
 <table  align="center">
 <tr>
 <td><label for="Name"><i class="fas fa-user"></i><b>Suna</b><span style="color: red;">*</span></label><br>
-<input type="text" id="name" name="user_name" required placeholder="Msl, Yusuf">
+<input type="text" id="name" name="user_name" required placeholder="Msl, Yusuf" class="one">
 </td>
 </tr>
 
 <tr>
 <td><label for="Name"><i class="fas fa-user"></i><b>Sunan Mahaifi</b><span style="color: red;">*</span></label><br>
-<input type="text" id="name" name="user_name" required placeholder="Msl, Junaidu">
+<input type="text" id="name" name="user_name" required placeholder="Msl, Junaidu" class="two">
 </td>
 </tr>
 
 <tr>
 <td> <label for="tel"> <i class="fas fa-phone"></i><b> Lambar waya</b><span style="color: red;">*</span> </label> <br>
-<input type="tel" id="phone" name="user_tel" required placeholder="Msl, +234 00974009">
+<input type="tel" id="phone" name="user_tel" required placeholder="Msl, +234 00974009" class="three">
 </td>
 </tr>
 
 <tr>
 <td><label for="Mail"><i class="fa fa-envelope"></i><b>Imel</b><span style="color: grey;">*</span> </label> <br>
-<input type="Mail" id="mail" name="user_Mail" placeholder="Msl, bodiga@gmail.com">
+<input type="Mail" id="mail" name="user_Mail" placeholder="Msl, bodiga@gmail.com" class="four">
 </td>
 </tr>
 
 <tr>
 <td><label for="date"><i class="fas fa-calendar"></i><b>Kwanan Wata</b><span style="color: red">*</span> </label> <br>
-<input type="date" id="date" name="user_date" required>
+<input type="date" id="date" name="user_date" required class="five">
 </td>
 </tr>
 
 <tr>
 <td>
-<label for="gender"><i class="fas fa-genderless"></i><b>Jinsi</b><span style="color: grey;">*</span></label><input type="radio" name="user_male" id="male" > Namiji <i class="fas fa-venus"></i> <input type="radio" name="user_female" id="female"> Mace <i class="fas fa-mars"></i>
-</tr>
-</td>
-
-
-<tr>
-<td>
-<label for="location"><i class="fas fa-map"></i>Sunan wurin Zama <span style="color: red;">*</span></label><br><input type="text" name="user_location" required id="location" placeholder="msl, Runjn kudu area bodinga">
+<label for="gender"><i class="fas fa-genderless"></i><b>Jinsi</b><span style="color: grey;">*</span></label><input type="radio" name="user_male" id="male" class="six"> Namiji <i class="fas fa-venus"></i> <input type="radio" name="user_female" id="female" class="seven"> Mace <i class="fas fa-mars"></i>
 </tr>
 </td>
 
 
 <tr>
 <td>
-<label for="textarea"><i class="fas fa-pen"></i>Yankin Rubutu<span style=" color: red;">*</span></label><br><textarea name="textarea_user" required placeholder="Zayyana Sakon " cols="30" rows="10" style=" margin-top: 20px; margin: 10px; border: inset 3px green; border-radius: 5px; outline-color: green; border-color: lightblue;"></textarea>
+<label for="location"><i class="fas fa-map"></i>Sunan wurin Zama <span style="color: red;">*</span></label><br><input type="text" name="user_location" required id="location" placeholder="msl, Runjn kudu area bodinga" class="eight">
+</tr>
+</td>
+
+
+<tr>
+<td>
+<label for="textarea"><i class="fas fa-pen"></i>Yankin Rubutu<span style=" color: red;">*</span></label><br><textarea name="textarea_user" required placeholder="Shigar Da Rubutu" class="nine" cols="30" rows="10" style=" margin-top: 20px; margin: 10px; border: inset 3px green; border-radius: 5px; outline-color: green; border-color: lightblue;"></textarea>
 </tr>
 </td>
 
@@ -306,11 +456,10 @@ margin-top: -20px;
 </button>
 </tr>
 </td>
-
+<br>
+<br>
 <tr>
-<td>
-			   			  
-						  
+<td>		  
 			   			 <footer>
             <p style="text-align: center; border-radius: 8px; background-color: green; color: white; font-weight: bold;">
               &copy; Copyright Aliyu Adamu Bodinga | All Rights Reserved. 
